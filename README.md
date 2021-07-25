@@ -1,6 +1,6 @@
 # 😎 Learn Python 😎
 
-This is a great place to start learning Python. Full credit goes to Eric Matthes in his Python Crash Course, 2nd Edition Book.
+This is a great place to start learning Python. Full credit goes to Eric Matthes.
 
 
 
