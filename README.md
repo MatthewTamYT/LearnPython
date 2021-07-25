@@ -3,9 +3,9 @@
 This is a great place to start for many people to start learning Python. Full credit goes to Eric Matthes in his Python Crash Course, 2nd Edition Book. Thank you Eric!
 
 ## Table of Contents
-* [1 Getting Started](getting-started)
+* 1 Getting Started
 
-## GETTING STARTED 
+## 1 GETTING STARTED 
 In this chapter, you’ll run your first Python program, hello_world.py. First, you’ll need to check whether a recent version of Python is installed on your computer; if it isn’t, you’ll install it. You’ll also install a text editor to work with your Python programs. Text editors recognize Python code and highlight sections as you write, making it easy to understand your code’s structure. 
 
 ### Setting Up Your Programming Environment
@@ -153,6 +153,7 @@ If you can’t get hello_world.py to run, here are a few remedies you can try th
 - Ask someone else to follow the steps in this chapter, on your computer or a different one, and watch what they do carefully. You might have missed one small step that someone else happens to catch. 
 - Find someone who knows Python and ask them to help you get set up. If you ask around, you might find that you unexpectedly know someone who uses Python. The setup instructions in this chapter are also available through the book’s companion website at [Nostarch.com](https://nostarch.com/pythoncrashcourse2e/). The online version of these instructions might work better for you because you can simply cut and paste code. 
 - Ask for help online. Appendix C provides a number of resources, such as forums and live chat sites, where you can ask for solutions from people who’ve already worked through the issue you’re currently facing. 
+
 Never worry that you’re bothering experienced programmers. Every programmer has been stuck at some point, and most programmers are happy to help you set up your system correctly. As long as you can state clearly what you’re trying to do, what you’ve already tried, and the results you’re getting, there’s a good chance someone will be able to help you. As mentioned in the Introduction, the Python community is very friendly and welcoming to beginners. Python should run well on any modern computer. Early setup issues can be frustrating, but they’re well worth sorting out. Once you get hello_world.py running, you can start to learn Python, and your programming work will become more interesting and satisfying. 
 
 ### Running Python Programs from a Terminal 
@@ -190,3 +191,5 @@ The exercises in this chapter are exploratory in nature. Starting in Chapter 2, 
 
 ### Summary
 In this chapter, you learned a bit about Python in general, and you installed Python on your system if it wasn’t already there. You also installed a text editor to make it easier to write Python code. You ran snippets of Python code in a terminal session, and you ran your first program, hello_world.py. You probably learned a bit about troubleshooting as well. In the next chapter, you’ll learn about the different kinds of data you can work with in your Python programs, and you’ll use variables as well.
+
+
