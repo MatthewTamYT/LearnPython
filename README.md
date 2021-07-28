@@ -2,8 +2,6 @@
 
 This is a great place to start learning Python. Full credit goes to Eric Matthes.
 
-
-
 ## Table of Contents
 * 1 Getting Started
 
@@ -150,6 +148,7 @@ If you don’t see this output, something might have gone wrong in the program. 
 
 ### Troubleshooting 
 If you can’t get hello_world.py to run, here are a few remedies you can try that are also good general solutions for any programming problem: When a program contains a significant error, Python displays a traceback, which is an error report. Python looks through the file and tries to identify the problem. Check the traceback; it might give you a clue as to what issue is preventing the program from running. 
+
 - Step away from your computer, take a short break, and then try again. Remember that syntax is very important in programming, so even a missing colon, a mismatched quotation mark, or mismatched parentheses can prevent a program from running properly. Reread the relevant parts of this chapter, look over your code, and try to find the mistake. 
 - Start over again. You probably don’t need to uninstall any software, but it might make sense to delete your hello_world.py file and re-create it from scratch. 
 - Ask someone else to follow the steps in this chapter, on your computer or a different one, and watch what they do carefully. You might have missed one small step that someone else happens to catch. 
@@ -174,6 +173,7 @@ At ➊ you use the cd command to navigate to the python_work folder, which is in
 
 #### On macOS and Linux 
 Running a Python program from a terminal session is the same on Linux and macOS. You can use the terminal command cd, for change directory, to navigate through your filesystem in a terminal session. The command ls, for list, shows you all the nonhidden files that exist in the current directory. Open a new terminal window and enter the following commands to run hello_world.py: 
+
     ➊ ~$ cd Desktop/python_work/
     ➋ ~/Desktop/python_work$ ls
        hello_world.py
@@ -185,11 +185,9 @@ At ➊ you use the cd command to navigate to the python_work folder, which is in
 ### TRY IT YOURSELF 
 The exercises in this chapter are exploratory in nature. Starting in Chapter 2, the challenges you’ll solve will be based on what you’ve learned. 
 
-1-1. python.org: Explore the Python home page (https://python.org/) to find topics that interest you. As you become familiar with Python, different parts of the site will be more useful to you. 
-
-1-2. Hello World Typos: Open the hello_world.py file you just created. Make a typo somewhere in the line and run the program again. Can you make a typo that generates an error? Can you make sense of the error message? Can you make a typo that doesn’t generate an error? Why do you think it didn’t make an error? 
-
-1-3. Infinite Skills: If you had infinite programming skills, what would you build? You’re about to learn how to program. If you have an end goal in mind, you’ll have an immediate use for your new skills; now is a great time to draft descriptions of what you want to create. It’s a good habit to keep an “ideas” notebook that you can refer to whenever you want to start a new project. Take a few minutes now to describe three programs you want to create. 
+- 1-1. python.org: Explore the Python home page (https://python.org/) to find topics that interest you. As you become familiar with Python, different parts of the site will be more useful to you. 
+- 1-2. Hello World Typos: Open the hello_world.py file you just created. Make a typo somewhere in the line and run the program again. Can you make a typo that generates an error? Can you make sense of the error message? Can you make a typo that doesn’t generate an error? Why do you think it didn’t make an error? 
+- 1-3. Infinite Skills: If you had infinite programming skills, what would you build? You’re about to learn how to program. If you have an end goal in mind, you’ll have an immediate use for your new skills; now is a great time to draft descriptions of what you want to create. It’s a good habit to keep an “ideas” notebook that you can refer to whenever you want to start a new project. Take a few minutes now to describe three programs you want to create. 
 
 ### Summary
 In this chapter, you learned a bit about Python in general, and you installed Python on your system if it wasn’t already there. You also installed a text editor to make it easier to write Python code. You ran snippets of Python code in a terminal session, and you ran your first program, hello_world.py. You probably learned a bit about troubleshooting as well. In the next chapter, you’ll learn about the different kinds of data you can work with in your Python programs, and you’ll use variables as well.
@@ -447,15 +445,11 @@ NOTE: Your editor’s syntax highlighting feature should help you spot some synt
 #### TRY IT YOURSELF 
 Save each of the following exercises as a separate file with a name like name_cases.py. If you get stuck, take a break or see the suggestions in Appendix C. 
 
-2-3. Personal Message: Use a variable to represent a person’s name, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?” 
-
-2-4. Name Cases: Use a variable to represent a person’s name, and then print that person’s name in lowercase, uppercase, and title case. 
-
-2-5. Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks: Albert Einstein once said, “A person who never made a mistake never tried anything new.” 
-
-2-6. Famous Quote 2: Repeat Exercise 2-5, but this time, represent the famous person’s name using a variable called famous_person. Then compose your message and represent it with a new variable called message. Print your message. 
-
-2-7. Stripping Names: Use a variable to represent a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip(). 
+- 2-3. Personal Message: Use a variable to represent a person’s name, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?” 
+- 2-4. Name Cases: Use a variable to represent a person’s name, and then print that person’s name in lowercase, uppercase, and title case. 
+- 2-5. Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks: Albert Einstein once said, “A person who never made a mistake never tried anything new.” 
+- 2-6. Famous Quote 2: Repeat Exercise 2-5, but this time, represent the famous person’s name using a variable called famous_person. Then compose your message and represent it with a new variable called message. Print your message. 
+- 2-7. Stripping Names: Use a variable to represent a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip(). 
 
 ### Numbers 
 Numbers are used quite often in programming to keep score in games, represent data in visualizations, store information in web applications, and so on. Python treats numbers in several different ways, depending on how they’re being used. Let’s first look at how Python manages integers, because they’re the simplest to work with. 
@@ -555,12 +549,12 @@ A constant is like a variable whose value stays the same throughout the life of 
 When you want to treat a variable as a constant in your code, make the name of the variable all capital letters. 
 
 #### TRY IT YOURSELF 
-2-8. Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print() calls to see the results. You should create four lines that look like this: 
+- 2-8. Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print() calls to see the results. You should create four lines that look like this: 
 
     print(5+3) 
     
 Your output should simply be four lines with the number 8 appearing once on each line. 
-2-9. Favorite Number: Use a variable to represent your favorite number. Then, using that variable, create a message that reveals your favorite number. Print that message. 
+- 2-9. Favorite Number: Use a variable to represent your favorite number. Then, using that variable, create a message that reveals your favorite number. Print that message. 
 
 ### Comments 
 Comments are an extremely useful feature in most programming languages. Everything you’ve written in your programs so far is Python code. As your programs become longer and more complicated, you should add notes within your programs that describe your overall approach to the problem you’re solving. A comment allows you to write notes in English within your programs. 
@@ -572,6 +566,7 @@ In Python, the hash mark (#) indicates a comment. Anything following a hash mark
     ------------------------------------------------------------------
     # Say hello to everyone.
     print("Hello Python people!") 
+    ------------------------------------------------------------------
     
 Python ignores the first line and executes the second line. 
 
@@ -581,7 +576,7 @@ Python ignores the first line and executes the second line.
 The main reason to write comments is to explain what your code is supposed to do and how you are making it work. When you’re in the middle of working on a project, you understand how all of the pieces fit together. But when you return to a project after some time away, you’ll likely have forgotten some of the details. You can always study your code for a while and figure out how segments were supposed to work, but writing good comments can save you time by summarizing your overall approach in clear English. If you want to become a professional programmer or collaborate with other programmers, you should write meaningful comments. Today, most software is written collaboratively, whether by a group of employees at one company or a group of people working together on an open source project. Skilled programmers expect to see comments in code, so it’s best to start adding descriptive comments to your programs now. Writing clear, concise comments in your code is one of the most beneficial habits you can form as a new programmer. When you’re determining whether to write a comment, ask yourself if you had to consider several approaches before coming up with a reasonable way to make something work; if so, write a comment about your solution. It’s much easier to delete extra comments later on than it is to go back and write comments for a sparsely commented program. From now on, I’ll use comments in examples throughout this book to help explain sections of code. 
 
 #### TRY IT YOURSELF 
-2-10. Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does. 
+- 2-10. Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does. 
 
 ### The Zen of Python 
 Experienced Python programmers will encourage you to avoid complexity and aim for simplicity whenever possible. The Python community’s philosophy is contained in “The Zen of Python” by Tim Peters. You can access this brief set of principles for writing good Python code by entering import this into your interpreter. I won’t reproduce the entire “Zen of Python” here, but I’ll share a few lines to help you understand why they should be important to you as a beginning Python programmer. 
@@ -609,7 +604,393 @@ Even when your code is complex, aim to make it readable. When you’re working o
 If two Python programmers are asked to solve the same problem, they should come up with fairly compatible solutions. This is not to say there’s no room for creativity in programming. On the contrary! But much of programming consists of using small, common approaches to simple situations within a larger, more creative project. The nuts and bolts of your programs should make sense to other Python programmers. Now is better than never. You could spend the rest of your life learning all the intricacies of Python and of programming in general, but then you’d never complete any projects. Don’t try to write perfect code; write code that works, and then decide whether to improve your code for that project or move on to something new. As you continue to the next chapter and start digging into more involved topics, try to keep this philosophy of simplicity and clarity in mind. Experienced programmers will respect your code more and will be happy to give you feedback and collaborate with you on interesting projects. 
 
 #### TRY IT YOURSELF 
-2-11. Zen of Python: Enter import this into a Python terminal session and skim through the additional principles. 
+- 2-11. Zen of Python: Enter import this into a Python terminal session and skim through the additional principles. 
 
 ### Summary 
 In this chapter you learned to work with variables. You learned to use descriptive variable names and how to resolve name errors and syntax errors when they arise. You learned what strings are and how to display strings using lowercase, uppercase, and title case. You started using whitespace to organize output neatly, and you learned to strip unneeded whitespace from different parts of a string. You started working with integers and floats, and learned some of the ways you can work with numerical data. You also learned to write explanatory comments to make your code easier for you and others to read. Finally, you read about the philosophy of keeping your code as simple as possible, whenever possible. In Chapter 3 you’ll learn to store collections of information in data structures called lists. You’ll learn to work through a list, manipulating any information in that list.
+
+## 3 INTRODUCING LISTS 
+In this chapter and the next you’ll learn what lists are and how to start working with the elements in a list. Lists allow you to store sets of information in one place, whether you have just a few items or millions of items. Lists are one of Python’s most powerful features readily accessible to new programmers, and they tie together many important concepts in programming. 
+
+### What Is a List? 
+A list is a collection of items in a particular order. You can make a list that includes the letters of the alphabet, the digits from 0–9, or the names of all the people in your family. You can put anything you want into a list, and the items in your list don’t have to be related in any particular way. Because a list usually contains more than one element, it’s a good idea to make the name of your list plural, such as letters, digits, or names. In Python, square brackets ([]) indicate a list, and individual elements in the list are separated by commas. Here’s a simple example of a list that contains a few kinds of bicycles: 
+
+    bicycles.py 
+    ------------------------------------------------------------------
+    bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+    print(bicycles) 
+    ------------------------------------------------------------------
+    
+If you ask Python to print a list, Python returns its representation of the list, including the square brackets: 
+
+	['trek', 'cannondale', 'redline', 'specialized'] 
+	
+Because this isn’t the output you want your users to see, let’s learn how to access the individual items in a list. 
+
+#### Accessing Elements in a List 
+Lists are ordered collections, so you can access any element in a list by telling Python the position, or index, of the item desired. To access an element in a list, write the name of the list followed by the index of the item enclosed in square brackets. For example, let’s pull out the first bicycle in the list bicycles: 
+	
+	bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+	➊ print(bicycles[0]) 
+	
+The syntax for this is shown at ➊. When we ask for a single item from a list, Python returns just that element without square brackets: 
+
+	trek 
+	
+This is the result you want your users to see—clean, neatly formatted output. You can also use the string methods from Chapter 2 on any element in this list. For example, you can format the element 'trek' more neatly by using the title() method: 
+
+	bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+	print(bicycles[0].title()) 
+	
+This example produces the same output as the preceding example except 'Trek' is capitalized. 
+
+#### Index Positions Start at 0, Not 1 
+Python considers the first item in a list to be at position 0, not position 1. This is true of most programming languages, and the reason has to do with how the list operations are implemented at a lower level. If you’re receiving unexpected results, determine whether you are making a simple off-by-one error. The second item in a list has an index of 1. Using this counting system, you can get any element you want from a list by subtracting one from its position in the list. For instance, to access the fourth item in a list, you request the item at index 3. The following asks for the bicycles at index 1 and index 3: 
+
+	bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+	print(bicycles[1])
+	print(bicycles[3]) 
+	
+This code returns the second and fourth bicycles in the list: 
+
+	cannondale
+	specialized 
+	
+Python has a special syntax for accessing the last element in a list. By asking for the item at index -1, Python always returns the last item in the list: 
+
+	bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+	print(bicycles[-1]) 
+	
+This code returns the value 'specialized'. This syntax is quite useful, because you’ll often want to access the last items in a list without knowing exactly how long the list is. This convention extends to other negative index values as well. The index -2 returns the second item from the end of the list, the index -3 returns the third item from the end, and so forth. 
+
+#### Using Individual Values from a List 
+You can use individual values from a list just as you would any other variable. For example, you can use f-strings to create a message based on a value from a list. Let’s try pulling the first bicycle from the list and composing a message using that value. 
+
+	bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+	➊ message = f"My first bicycle was a {bicycles[0].title()}."
+ 	print(message) 
+	
+At ➊, we build a sentence using the value at bicycles[0] and assign it to the variable message. The output is a simple sentence about the first bicycle in the list: 
+
+	My first bicycle was a Trek. 
+	
+#### TRY IT YOURSELF
+Try these short programs to get some firsthand experience with Python’s lists. You might want to create a new folder for each chapter’s exercises to keep them organized. 
+- 3-1. Names: Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time. 
+- 3-2. Greetings: Start with the list you used in Exercise 3-1, but instead of just printing each person’s name, print a message to them. The text of each message should be the same, but each message should be personalized with the person’s name. 
+- 3-3. Your Own List: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.” 
+
+### Changing, Adding, and Removing Elements 
+Most lists you create will be dynamic, meaning you’ll build a list and then add and remove elements from it as your program runs its course. For example, you might create a game in which a player has to shoot aliens out of the sky. You could store the initial set of aliens in a list and then remove an alien from the list each time one is shot down. Each time a new alien appears on the screen, you add it to the list. Your list of aliens will increase and decrease in length throughout the course of the game. 
+
+#### Modifying Elements in a List 
+The syntax for modifying an element is similar to the syntax for accessing an element in a list. To change an element, use the name of the list followed by the index of the element you want to change, and then provide the new value you want that item to have. For example, let’s say we have a list of motorcycles, and the first item in the list is 'honda'. How would we change the value of this first item? 
+
+	motorcycles.py 
+	------------------------------------------------------------------
+	➊ motorcycles = ['honda', 'yamaha', 'suzuki']
+  	   print(motorcycles)
+ 	➋ motorcycles[0] = 'ducati'
+   	   print(motorcycles) 
+	------------------------------------------------------------------
+	   
+The code at ➊ defines the original list, with 'honda' as the first element. The code at ➋ changes the value of the first item to 'ducati'. The output shows that the first item has indeed been changed, and the rest of the list stays the same: 
+
+	['honda', 'yamaha', 'suzuki']
+	['ducati', 'yamaha', 'suzuki'] 
+	
+You can change the value of any item in a list, not just the first item. 
+
+#### Adding Elements to a List 
+You might want to add a new element to a list for many reasons. For example, you might want to make new aliens appear in a game, add new data to a visualization, or add new registered users to a website you’ve built. Python provides several ways to add new data to existing lists. 
+
+##### Appending Elements to the End of a List 
+The simplest way to add a new element to a list is to append the item to the list. When you append an item to a list, the new element is added to the end of the list. Using the same list we had in the previous example, we’ll add the new element 'ducati' to the end of the list: 
+
+	motorcycles = ['honda', 'yamaha', 'suzuki']
+	   print(motorcycles)
+ 	➊ motorcycles.append('ducati')
+	   print(motorcycles) 
+	   
+The append() method at ➊ adds 'ducati' to the end of the list without affecting any of the other elements in the list: 
+
+	['honda', 'yamaha', 'suzuki']
+	['honda', 'yamaha', 'suzuki', 'ducati'] 
+	
+The append() method makes it easy to build lists dynamically. For example, you can start with an empty list and then add items to the list using a series of append() calls. Using an empty list, let’s add the elements 'honda', 'yamaha', and 'suzuki' to the list: 
+
+	motorcycles = []
+ 	motorcycles.append('honda')
+	motorcycles.append('yamaha')
+	motorcycles.append('suzuki')
+ 	print(motorcycles) 
+	
+The resulting list looks exactly the same as the lists in the previous examples: 
+
+	['honda', 'yamaha', 'suzuki'] 
+	
+Building lists this way is very common, because you often won’t know the data your users want to store in a program until after the program is running. To put your users in control, start by defining an empty list that will hold the users’ values. Then append each new value provided to the list you just created. 
+
+##### Inserting Elements into a List 
+You can add a new element at any position in your list by using the insert() method. You do this by specifying the index of the new element and the value of the new item. 		
+
+	motorcycles = ['honda', 'yamaha', 'suzuki']
+ 	➊ motorcycles.insert(0, 'ducati')
+   	print(motorcycles) 
+	
+In this example, the code at ➊ inserts the value 'ducati' at the beginning of the list. The insert() method opens a space at position 0 and stores the value 'ducati' at that location. This operation shifts every other value in the list one position to the right: 
+
+	['ducati', 'honda', 'yamaha', 'suzuki'] 
+	
+#### Removing Elements from a List 
+Often, you’ll want to remove an item or a set of items from a list. For example, when a player shoots down an alien from the sky, you’ll most likely want to remove it from the list of active aliens. Or when a user decides to cancel their account on a web application you created, you’ll want to remove that user from the list of active users. You can remove an item according to its position in the list or according to its value. 
+
+##### Removing an Item Using the del Statement 
+If you know the position of the item you want to remove from a list, you can use the del statement. 
+	
+	motorcycles = ['honda', 'yamaha', 'suzuki']
+    print(motorcycles)
+ 	➊ del motorcycles[0]
+   	print(motorcycles) 
+	
+The code at ➊ uses del to remove the first item, 'honda', from the list of motorcycles: 
+
+	['honda', 'yamaha', 'suzuki']
+	['yamaha', 'suzuki'] 
+	
+You can remove an item from any position in a list using the del statement if you know its index. For example, here’s how to remove the second item, 'yamaha', in the list: 
+
+	motorcycles = ['honda', 'yamaha', 'suzuki']
+	print(motorcycles)
+ 	del motorcycles[1]
+	print(motorcycles) 
+	
+The second motorcycle is deleted from the list: 
+
+	['honda', 'yamaha', 'suzuki']
+	['honda', 'suzuki'] 
+	
+In both examples, you can no longer access the value that was removed from the list after the del statement is used. 
+
+##### Removing an Item Using the pop() Method 
+Sometimes you’ll want to use the value of an item after you remove it from a list. For example, you might want to get the x and y position of an alien that was just shot down, so you can draw an explosion at that position. In a web application, you might want to remove a user from a list of active members and then add that user to a list of inactive members. The pop() method removes the last item in a list, but it lets you work with that item after removing it. The term pop comes from thinking of a list as a stack of items and popping one item off the top of the stack. In this analogy, the top of a stack corresponds to the end of a list. Let’s pop a motorcycle from the list of motorcycles: 
+
+	➊ motorcycles = ['honda', 'yamaha', 'suzuki']
+   	print(motorcycles)
+ 	➋ popped_motorcycle = motorcycles.pop()
+	➌ print(motorcycles)
+	➍ print(popped_motorcycle) 
+	
+We start by defining and printing the list motorcycles at ➊. At ➋ we pop a value from the list and store that value in the variable popped_motorcycle. We print the list at ➌ to show that a value has been removed from the list. Then we print the popped value at ➍ to prove that we still have access to the value that was removed. The output shows that the value 'suzuki' was removed from the end of the list and is now assigned to the variable popped_motorcycle: 
+
+	['honda', 'yamaha', 'suzuki']
+	['honda', 'yamaha']
+	suzuki 
+	
+How might this pop() method be useful? Imagine that the motorcycles in the list are stored in chronological order according to when we owned them. If this is the case, we can use the pop() method to print a statement about the last motorcycle we bought: 
+
+	motorcycles = ['honda', 'yamaha', 'suzuki']
+ 	last_owned = motorcycles.pop()
+	print(f"The last motorcycle I owned was a {last_owned.title()}.") 
+	
+The output is a simple sentence about the most recent motorcycle we owned: 
+
+	The last motorcycle I owned was a Suzuki. 
+	
+##### Popping Items from any Position in a List 
+You can use pop() to remove an item from any position in a list by including the index of the item you want to remove in parentheses. 
+
+	motorcycles = ['honda', 'yamaha', 'suzuki']
+ 	➊ first_owned = motorcycles.pop(0)
+	➋ print(f"The first motorcycle I owned was a {first_owned.title()}.") 
+	
+We start by popping the first motorcycle in the list at ➊, and then we print a message about that motorcycle at ➋. The output is a simple sentence describing the first motorcycle I ever owned: The first motorcycle I owned was a Honda. Remember that each time you use pop(), the item you work with is no longer stored in the list. If you’re unsure whether to use the del statement or the pop() method, here’s a simple way to decide: when you want to delete an item from a list and not use that item in any way, use the del statement; if you want to use an item as you remove it, use the pop() method. 
+
+##### Removing an Item by Value 
+Sometimes you won’t know the position of the value you want to remove from a list. If you only know the value of the item you want to remove, you can use the remove() method. For example, let’s say we want to remove the value 'ducati' from the list of motorcycles. 
+
+	motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+   	print(motorcycles)
+ 	➊ motorcycles.remove('ducati')
+   	print(motorcycles) 
+	
+The code at ➊ tells Python to figure out where 'ducati' appears in the list and remove that element: 
+
+	['honda', 'yamaha', 'suzuki', 'ducati']
+	['honda', 'yamaha', 'suzuki'] 
+	
+You can also use the remove() method to work with a value that’s being removed from a list. Let’s remove the value 'ducati' and print a reason for removing it from the list: 
+
+	➊ motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+   	print(motorcycles)
+ 	➋ too_expensive = 'ducati'
+	➌ motorcycles.remove(too_expensive)
+   	print(motorcycles)
+	➍ print(f"\nA {too_expensive.title()} is too expensive for me.") 
+	
+After defining the list at ➊, we assign the value 'ducati' to a variable called too_expensive ➋. We then use this variable to tell Python which value to remove from the list at ➌. At ➍ the value 'ducati' has been removed from the list but is still accessible through the variable too_expensive, allowing us to print a statement about why we removed 'ducati' from the list of motorcycles: 
+
+	['honda', 'yamaha', 'suzuki', 'ducati']
+	['honda', 'yamaha', 'suzuki']
+ 	A Ducati is too expensive for me. 
+	
+NOTE: The remove() method deletes only the first occurrence of the value you specify. If there’s a possibility the value appears more than once in the list, you’ll need to use a loop to make sure all occurrences of the value are removed. You’ll learn how to do this in Chapter 7. 
+
+#### TRY IT YOURSELF 
+The following exercises are a bit more complex than those in Chapter 2, but they give you an opportunity to use lists in all of the ways described. 
+- 3-4. Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to invite to dinner. Then use your list to print a message to each person, inviting them to dinner. 
+- 3-5. Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite. 
+
+	- Start with your program from Exercise 3-4. Add a print() call at the end of your program stating the name of the guest who can’t make it. 
+	- Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting. 
+	- Print a second set of invitation messages, one for each person who is still in your list. 
+
+- 3-6. More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner. 
+
+	- Start with your program from Exercise 3-4 or Exercise 3-5. Add a print() call to the end of your program informing people that you found a bigger dinner table. 
+	- Use insert() to add one new guest to the beginning of your list. 
+	- Use insert() to add one new guest to the middle of your list. 
+	- Use append() to add one new guest to the end of your list. 
+	- Print a new set of invitation messages, one for each person in your list. 
+	
+- 3-7. Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests. 
+	- Start with your program from Exercise 3-6. Add a new line that prints a message saying that you can invite only two people for dinner. 
+	- Use pop() to remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner. 
+	- Print a message to each of the two people still on your list, letting them know they’re still invited. 
+	- Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program. 
+
+### Organizing a List 
+Often, your lists will be created in an unpredictable order, because you can’t always control the order in which your users provide their data. Although this is unavoidable in most circumstances, you’ll frequently want to present your information in a particular order. Sometimes you’ll want to preserve the original order of your list, and other times you’ll want to change the original order. Python provides a number of different ways to organize your lists, depending on the situation. 
+
+#### Sorting a List Permanently with the sort() Method 
+Python’s sort() method makes it relatively easy to sort a list. Imagine we have a list of cars and want to change the order of the list to store them alphabetically. To keep the task simple, let’s assume that all the values in the list are lowercase. 
+
+	cars.py 
+	cars = ['bmw', 'audi', 'toyota', 'subaru']
+	➊ cars.sort()
+   	print(cars) 
+	
+The sort() method, shown at ➊, changes the order of the list permanently. The cars are now in alphabetical order, and we can never revert to the original order: 
+
+	['audi', 'bmw', 'subaru', 'toyota'] 
+	
+You can also sort this list in reverse alphabetical order by passing the argument reverse=True to the sort() method. The following example sorts the list of cars in reverse alphabetical order: 
+
+	cars = ['bmw', 'audi', 'toyota', 'subaru']
+	cars.sort(reverse=True)
+	print(cars) 
+	
+Again, the order of the list is permanently changed: 
+
+	['toyota', 'subaru', 'bmw', 'audi'] 
+	
+#### Sorting a List Temporarily with the sorted() Function 
+To maintain the original order of a list but present it in a sorted order, you can use the sorted() function. The sorted() function lets you display your list in a particular order but doesn’t affect the actual order of the list. Let’s try this function on the list of cars. 
+
+	cars = ['bmw', 'audi', 'toyota', 'subaru']
+ 	➊ print("Here is the original list:")
+   	print(cars)
+ 	➋ print("\nHere is the sorted list:")
+   	print(sorted(cars))
+ 	➌ print("\nHere is the original list again:")
+   	print(cars) 
+	
+We first print the list in its original order at ➊ and then in alphabetical order at ➋. After the list is displayed in the new order, we show that the list is still stored in its original order at ➌. 
+
+	Here is the original list:
+   	['bmw', 'audi', 'toyota', 'subaru']
+ 	Here is the sorted list:
+   	['audi', 'bmw', 'subaru', 'toyota']
+ 	➍ Here is the original list again:
+   	['bmw', 'audi', 'toyota', 'subaru'] 
+	
+Notice that the list still exists in its original order at ➍ after the sorted() function has been used. The sorted() function can also accept a reverse=True argument if you want to display a list in reverse alphabetical order. 
+
+NOTE: Sorting a list alphabetically is a bit more complicated when all the values are not in lowercase. There are several ways to interpret capital letters when determining a sort order, and specifying the exact order can be more complex than we want to deal with at this time. However, most approaches to sorting will build directly on what you learned in this section. 
+
+#### Printing a List in Reverse Order 
+To reverse the original order of a list, you can use the reverse() method. If we originally stored the list of cars in chronological order according to when we owned them, we could easily rearrange the list into reverse chronological order: 
+
+	cars = ['bmw', 'audi', 'toyota', 'subaru']
+	print(cars)
+ 	cars.reverse()
+	print(cars) 
+	
+Notice that reverse() doesn’t sort backward alphabetically; it simply reverses the order of the list: 
+
+	['bmw', 'audi', 'toyota', 'subaru']
+	['subaru', 'toyota', 'audi', 'bmw'] 
+	
+The reverse() method changes the order of a list permanently, but you can revert to the original order anytime by applying reverse() to the same list a second time. 
+
+#### Finding the Length of a List 
+You can quickly find the length of a list by using the len() function. The list in this example has four items, so its length is 4: 
+
+	>>> cars = ['bmw', 'audi', 'toyota', 'subaru']
+	>>> len(cars)
+	4 
+	
+You’ll find len() useful when you need to identify the number of aliens that still need to be shot down in a game, determine the amount of data you have to manage in a visualization, or figure out the number of registered users on a website, among other tasks. 
+
+NOTE: Python counts the items in a list starting with one, so you shouldn’t run into any off-by-one errors when determining the length of a list. 
+
+#### TRY IT YOURSELF 
+- 3-8. Seeing the World: Think of at least five places in the world you’d like to visit. 
+	- Store the locations in a list. Make sure the list is not in alphabetical order. P
+	- rint your list in its original order. Don’t worry about printing the list neatly, just print it as a raw Python list. 
+	- Use sorted() to print your list in alphabetical order without modifying the actual list. 
+	- Show that your list is still in its original order by printing it. 
+	- Use sorted() to print your list in reverse alphabetical order without changing the order of the original list. 
+	- Show that your list is still in its original order by printing it again. 
+	- Use reverse() to change the order of your list. Print the list to show that its order has changed. 
+	- Use reverse() to change the order of your list again. Print the list to show it’s back to its original order. 
+	- Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed. 
+	- Use sort() to change your list so it’s stored in reverse alphabetical order. Print the list to show that its order has changed. 
+
+- 3-9. Dinner Guests: Working with one of the programs from Exercises 3-4 through 3-7 (page 42), use len() to print a message indicating the number of people you are inviting to dinner. 
+- 3-10. Every Function: Think of something you could store in a list. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items and then uses each function introduced in this chapter at least once. 
+ 
+### Avoiding Index Errors When Working with Lists 
+One type of error is common to see when you’re working with lists for the first time. Let’s say you have a list with three items, and you ask for the fourth item: 
+
+	motorcycles.py 
+	------------------------------------------------------------------
+	motorcycles = ['honda', 'yamaha', 'suzuki']
+	print(motorcycles[3]) 
+	------------------------------------------------------------------
+	
+This example results in an index error: 
+	
+	Traceback (most recent call last):
+	  File "motorcycles.py", line 2, in <module>
+	    print(motorcycles[3])
+	IndexError: list index out of range 
+	
+Python attempts to give you the item at index 3. But when it searches the list, no item in motorcycles has an index of 3. Because of the off-by-one nature of indexing in lists, this error is typical. People think the third item is item number 3, because they start counting at 1. But in Python the third item is number 2, because it starts indexing at 0. An index error means Python can’t find an item at the index you requested. If an index error occurs in your program, try adjusting the index you’re asking for by one. Then run the program again to see if the results are correct. Keep in mind that whenever you want to access the last item in a list you use the index -1. This will always work, even if your list has changed size since the last time you accessed it: 
+
+	motorcycles = ['honda', 'yamaha', 'suzuki']
+	print(motorcycles[-1]) 
+	
+The index -1 always returns the last item in a list, in this case the value 'suzuki': 
+
+	'suzuki' 
+	
+The only time this approach will cause an error is when you request the last item from an empty list: 
+
+	motorcycles = []
+	print(motorcycles[-1]) 
+	
+No items are in motorcycles, so Python returns another index error: 
+	
+	Traceback (most recent call last):
+	  File "motorcyles.py", line 3, in <module>
+	    print(motorcycles[-1])
+	IndexError: list index out of range 
+	
+NOTE: If an index error occurs and you can’t figure out how to resolve it, try printing your list or just printing the length of your list. Your list might look much different than you thought it did, especially if it has been managed dynamically by your program. Seeing the actual list, or the exact number of items in your list, can help you sort out such logical errors. 
+
+#### TRY IT YOURSELF 
+- 3-11. Intentional Error: If you haven’t received an index error in one of your programs yet, try to make one happen. Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program. 
+	
+### Summary 
+In this chapter you learned what lists are and how to work with the individual items in a list. You learned how to define a list and how to add and remove elements. You learned to sort lists permanently and temporarily for display purposes. You also learned how to find the length of a list and how to avoid index errors when you’re working with lists. In Chapter 4 you’ll learn how to work with items in a list more efficiently. By looping through each item in a list using just a few lines of code you’ll be able to work efficiently, even when your list contains thousands or millions of items.
